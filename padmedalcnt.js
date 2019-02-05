@@ -1,9 +1,9 @@
 let medal=[0,0,0,0]
-const convrate=[5,3,3]
-const rainbow=document.getElementById("rainbow")
-const gold=document.getElementById("gold")
-const silver=document.getElementById("silver")
-const bronze=document.getElementById("bronze")
+const convrate=[5,3,3],
+    rainbow=document.getElementById("rainbow"),
+    gold=document.getElementById("gold"),
+    silver=document.getElementById("silver"),
+    bronze=document.getElementById("bronze")
 document.getElementById("goldp").onclick = function(){counter(1)}
 document.getElementById("silverp").onclick = function(){counter(2)}
 document.getElementById("bronzep").onclick = function(){counter(3)}
